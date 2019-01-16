@@ -32,7 +32,5 @@ LOCAL_SRC_FILES     := \
     src/outputstream_wrapper.cpp \
     src/stream_wrapper.cpp
 
-# Remove when libjpeg_static_ndk is XOM compatible.
-LOCAL_XOM := false
 
 include $(BUILD_SHARED_LIBRARY)
