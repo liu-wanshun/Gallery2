@@ -17,7 +17,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_SRC_FILES := \
     $(call all-java-files-under, src) \
-    $(call all-renderscript-files-under, src) \
     $(call all-java-files-under, src_pd)
 
 LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res
